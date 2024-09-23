@@ -12,9 +12,9 @@
 DHT dht(DHT_PIN, DHTTYPE);
 Buzzer buzzer(BUZZER_PIN);
 
-const char* ssid = "Wokwi-GUEST";
+const char* ssid = "Wokwi-GUEST"; 
 const char* password = ""; 
-const char* apiKey = "MXZWYSDUXMTEHA40";
+const char* apiKey = "MXZWYSDUXMTEHA40"; 
 const char* server = "api.thingspeak.com";
 
 void setup() {
@@ -46,13 +46,13 @@ float HCSR04() {
 }
 
 void loop() {
-  float umidade = dht.readHumidity();
   float temperatura = dht.readTemperature();
-  long distancia = HCSR04();
-  int ldr = analogRead(LDR_PIN);
-  int luzMap = map(ldr, 0, 4095, 0, 100000);
+  float umidade = dht.readHumidity();
+  long distancia = HCSR04(); 
+  int ldr = analogRead(LDR_PIN); 
+  int luzMapa = map(ldr, 0, 4095, 100000, 0);
 
-  if (isnan(umidade) || isnan(temperatura)) {
+  if (isnan(temperatura) || isnan(umidade)) {
     Serial.println("Falha na leitura do DHT22.");
     return;
   } else if (distancia == 0) {
@@ -65,7 +65,7 @@ void loop() {
                "&field1=" + temperatura + 
                "&field2=" + umidade + 
                "&field3=" + distancia + 
-               "&field4=" + luzMap;
+               "&field4=" + luzMapa;
 
   Serial.print("Enviando dados para o ThingSpeak...");
   
@@ -81,5 +81,5 @@ void loop() {
     Serial.println("Falha na conexão com o servidor.");
   }
   
-  delay(20000);
+  delay(15000);
 }
