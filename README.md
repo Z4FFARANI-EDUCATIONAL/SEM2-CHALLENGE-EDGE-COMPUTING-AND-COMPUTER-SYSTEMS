@@ -10,7 +10,7 @@
 
 ## LINKS
 - **[VÍDEO EXPLICATIVO]()**
-- **[SITE]()**
+- **[SITE](https://z4ffarani-educational.github.io/SEM2-CHALLENGE-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS/)**
 - **[CANAL IOT](https://thingspeak.com/channels/2665201)**
 - **[SIMULADOR](https://wokwi.com/projects/409672865580237825)**
 
