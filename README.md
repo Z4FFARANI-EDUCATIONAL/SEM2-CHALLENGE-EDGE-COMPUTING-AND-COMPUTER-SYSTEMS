@@ -8,9 +8,7 @@
 - **Kairo da Silva Silvestre de Carvalho** | 558288
 - **Rafael Menezes Viana** | 558287
 
-<br>
-
-# LINKS
+## LINKS
 - **[VÍDEO EXPLICATIVO]()**
 - **[SITE]()**
 - **[CANAL IOT](https://thingspeak.com/channels/2665201)**
