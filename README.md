@@ -30,17 +30,19 @@ O sistema é estruturado em três pilares:
 <br>
 
 # INSTRUÇÕES
-Criar uma pasta no computador para ser o repositório local.
+1. Em um terminal, clonar o repositório:
+```bash
+git clone https://github.com/Z4FFARANI-EDUCATIONAL/SEM2-CHALLENGE-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS.git
+```
 
-Abrir a pasta criada em uma IDE de preferência.
+2. No terminal, navegar até a pasta do projeto:
+```bash
+cd SEM2-CHALLENGE-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS
+```
 
-No terminal da IDE, clonar o repositório com `git clone https://github.com/Z4FFARANI-EDUCATIONAL/SEM2-CHALLENGE-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS.git`.
+3. Acessar o site navegando por: ``src/site/index.html`` e executar o arquivo: ``index.html``
 
-No terminal da IDE, navegar até a pasta do projeto com ``cd SEM2-CHALLENGE-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS``.
-
-Acessar o site navegando por ``src/site/index.html`` e executar o arquivo ``index.html``.
-
-Para rodar o Simulador, seguir o link disponibilizado e clicar no botão de iniciar. Levará algum tempo até que o simulador se conecte à rede pública do Wokwi e ao Canal IoT. É possível regular os níveis de condição relacionados aos sensores clicando neles, para que assim sejam registrados ao Canal IoT após um intervalo de 15 segundos. Para utilização física, é necessário executar o código presente no arquivo ``simulador.ino`` na pasta ``src``, assim como instalar as bibliotecas dos sensores presentes na pasta ``libraries``. O programa Arduino IDE é adequado para o teste.
+4. Para rodar o Simulador, seguir o link disponibilizado e clicar no botão de iniciar. Levará algum tempo até que o simulador se conecte à rede pública do Wokwi e ao Canal IoT. É possível regular os níveis de condição relacionados aos sensores clicando neles, para que assim sejam registrados ao Canal IoT após um intervalo de 15 segundos. Para utilização física, é necessário executar o código presente no arquivo ``simulador.ino`` na pasta ``src``, assim como instalar as bibliotecas dos sensores presentes na pasta ``libraries``. O programa Arduino IDE é adequado para o teste.
 
 <br>
 
