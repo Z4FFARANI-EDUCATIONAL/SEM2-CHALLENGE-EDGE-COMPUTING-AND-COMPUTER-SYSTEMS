@@ -98,7 +98,7 @@ cd SEM2-CHALLENGE-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS
 # OBSERVAÇÕES
 - A estabilidade da conexão Wi-Fi é fundamental para o funcionamento do sistema. Verifique se o módulo ESP32 está dentro do alcance da rede sem fio para garantir a transmissão de dados confiável.
 
-- Os preços componentes do simulador estão sujeitos a valorização ou desvalorização.
+- Os preços dos componentes do simulador estão sujeitos a valorização ou desvalorização.
 
 - Este projeto utiliza o ThingSpeak, que possui limites de taxa para requisições de dados. Certifique-se de não exceder esses limites para evitar interrupções no serviço. Consulte a documentação do ThingSpeak para mais detalhes sobre as restrições.
 
