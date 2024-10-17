@@ -42,7 +42,7 @@ cd SEM2-CHALLENGE-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS
 
 3. Acessar o site navegando por: ``src/site/index.html`` e executar o arquivo: ``index.html``
 
-4. Para rodar o Simulador, seguir o link disponibilizado e clicar no botão de iniciar. Levará algum tempo até que o simulador se conecte à rede pública do Wokwi e ao Canal IoT. É possível regular os níveis de condição relacionados aos sensores clicando neles, para que assim sejam registrados ao Canal IoT após um intervalo de 15 segundos. Para utilização física, é necessário executar o código presente no arquivo ``simulador.ino`` na pasta ``src``, assim como instalar as bibliotecas dos sensores presentes na pasta ``libraries``. O programa Arduino IDE é adequado para o teste.
+4. Para rodar o Simulador, seguir o link disponibilizado e clicar no botão de iniciar. Levará algum tempo até que o simulador se conecte à rede pública do Wokwi e ao Canal IoT. É possível regular os níveis de condição relacionados aos sensores clicando neles, para que assim sejam registrados ao Canal IoT após um intervalo de 15 segundos. Para utilização física, é necessário executar o código presente no arquivo ``simulador.ino`` na pasta ``docs``, assim como instalar as bibliotecas dos sensores presentes na pasta ``libraries``. O programa Arduino IDE é adequado para o teste.
 
 <br>
 
