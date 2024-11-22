@@ -55,9 +55,9 @@ cd SEM2-CHALLENGE-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS
 
 - **Referenciamento e leitura dos sensores** | Configura e lê os dados dos sensores DHT22, HC-SR04 e LDR, processando as informações de temperatura, umidade, distância e luminosidade para envio posterior.
 
-- **Constante para conexão WiFi, chave de API e servidor** | Define as credenciais necessárias para a conexão à rede Wi-Fi, a chave de API do ThingSpeak e o endereço do servidor, facilitando a comunicação entre o ESP32 e o ThingSpeak.
+- **Constante para conexão Wi-Fi, chave de API e servidor** | Define as credenciais necessárias para a conexão à rede Wi-Fi, a chave de API do ThingSpeak e o endereço do servidor, facilitando a comunicação entre o ESP32 e o ThingSpeak.
 
-- **Envio de dados dos sensores para Canal IoT** | Implementa a lógica para enviar periodicamente os dados lidos dos sensores para o canal IoT, utilizando a chave de API para autenticação e formatação adequada das requisições HTTP.
+- **Envio de dados dos sensores para canal IoT** | Implementa a lógica para enviar periodicamente os dados lidos dos sensores para o canal IoT, utilizando a chave de API para autenticação e formatação adequada das requisições HTTP.
 
 <br>
 
@@ -96,15 +96,15 @@ cd SEM2-CHALLENGE-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS
 <br>
 
 # OBSERVAÇÕES
-- A estabilidade da conexão Wi-Fi é fundamental para o funcionamento do sistema. Verifique se o módulo ESP32 está dentro do alcance da rede sem fio para garantir a transmissão de dados confiável.
+- A estabilidade da conexão Wi-Fi é fundamental para o funcionamento do sistema. Verificar se o módulo ESP32 está dentro do alcance da rede sem fio para garantir a transmissão de dados confiável.
 
 - Os preços dos componentes do simulador estão sujeitos a valorização ou desvalorização.
 
-- Este projeto utiliza o ThingSpeak, que possui limites de taxa para requisições de dados. Certifique-se de não exceder esses limites para evitar interrupções no serviço. Consulte a documentação do ThingSpeak para mais detalhes sobre as restrições.
+- Este projeto utiliza o ThingSpeak, que possui limites de taxa para requisições de dados. Certificar de não exceder esses limites para evitar interrupções no serviço. Consultar a documentação do ThingSpeak para mais detalhes sobre as restrições.
 
 - Caso sejam criadas para uso particular, as credenciais de Wi-Fi e a chave da API não devem ser expostas publicamente.
 
-- O sistema está projetado para monitorar um número limitado de sensores. Para escalabilidade, considere utilizar uma arquitetura de microserviços ou de um sistema de mensageria para lidar com múltiplos dispositivos simultaneamente.
+- O sistema está projetado para monitorar um número limitado de sensores. Para escalabilidade, considerar utilizar uma arquitetura de microserviços ou de um sistema de mensageria para lidar com múltiplos dispositivos simultaneamente.
   
 <br>
 
