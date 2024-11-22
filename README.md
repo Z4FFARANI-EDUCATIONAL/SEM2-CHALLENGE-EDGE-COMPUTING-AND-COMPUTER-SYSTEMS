@@ -40,9 +40,9 @@ git clone https://github.com/Z4FFARANI-EDUCATIONAL/SEM2-CHALLENGE-EDGE-COMPUTING
 cd SEM2-CHALLENGE-EDGE-COMPUTING-AND-COMPUTER-SYSTEMS
 ```
 
-3. Acessar o site navegando por: ``src/site/index.html`` e executar o arquivo: ``index.html``
+3. Acessar o site navegando por: `src/site/index.html` e executar o arquivo: `index.html`
 
-4. Para rodar o simulador, seguir o link disponibilizado e clicar no botão de iniciar. Levará algum tempo até que o simulador se conecte à rede pública do Wokwi (simulador de eletrônica online) e ao canal IoT. É possível regular os níveis de condição relacionados aos sensores clicando neles, para que assim sejam registrados ao canal IoT após um intervalo de 15 segundos. Para utilização física, é necessário executar o código presente no arquivo ``simulator.ino`` na pasta ``docs``, assim como instalar as bibliotecas dos sensores presentes na pasta ``libraries``. O programa Arduino IDE é adequado para o teste.
+4. Para rodar o simulador, seguir o link disponibilizado e clicar no botão de iniciar. Levará algum tempo até que o simulador se conecte à rede pública do Wokwi (simulador de eletrônica online) e ao canal IoT. É possível regular os níveis de condição relacionados aos sensores clicando neles, para que assim sejam registrados ao canal IoT após um intervalo de 15 segundos. Para utilização física, é necessário executar o código presente no arquivo `simulator.ino` na pasta `docs`, assim como instalar as bibliotecas dos sensores presentes na pasta `libraries`. O programa Arduino IDE é adequado para o teste.
 
 <br>
 
