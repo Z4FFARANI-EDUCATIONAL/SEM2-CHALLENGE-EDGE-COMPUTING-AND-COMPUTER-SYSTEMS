@@ -3,10 +3,10 @@
 ![banner-simulador](./assets/banner-simulador.png)
 
 # INTEGRANTES
-- **Guilherme Santos Nunes**
-- **Kaique Zaffarani**
-- **Kairo da Silva Silvestre de Carvalho**
-- **Rafael Menezes Viana**
+- **[Guilherme Santos Nunes](https://github.com/sannunez)**
+- **[Kairo da Silva Silvestre de Carvalho](https://github.com/KairoSilvestre)**
+- **[Kaique Zaffarani](https://github.com/Z4ffarani)**
+- **[Rafael Menezes Viana](https://github.com/vianafs)**
 
 ## LINKS
 - **[VÍDEO EXPLICATIVO](https://youtu.be/QZd2da9OijI)**
