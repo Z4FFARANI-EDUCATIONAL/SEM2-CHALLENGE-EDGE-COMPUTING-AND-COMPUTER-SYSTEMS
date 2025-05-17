@@ -4,8 +4,8 @@
 
 # INTEGRANTES
 - **[Guilherme Santos Nunes](https://github.com/sannunez)**
-- **[Kairo da Silva Silvestre de Carvalho](https://github.com/KairoSilvestre)**
 - **[Kaique Zaffarani](https://github.com/Z4ffarani)**
+- **[Kairo da Silva Silvestre de Carvalho](https://github.com/KairoSilvestre)**
 - **[Rafael Menezes Viana](https://github.com/vianafs)**
 
 ## LINKS
